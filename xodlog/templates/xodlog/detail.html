@@ -1,0 +1,25 @@
+<style>
+div {
+    height: 670px;
+    background: linear-gradient(to bottom right, #ccffcc 0%, #003366 84%)
+}
+td {
+    padding: 15px;
+}
+</style>
+<body>
+<div>
+ <form method="post">
+     {% csrf_token %}<pre>
+ <h style="text-align:center; font-size: 65px">Xodia Login</h>
+    <br><br><br><br>
+ Username = <input type="text" name="username" />
+<br><br>
+ Password = <input type="password" name="password" />
+<input type="submit" value="Proceed">
+ </pre>
+ </form>
+<br><br>
+<a href="/xodia/sig_sup">New to site? Signup</a>
+</div>
+</body>
